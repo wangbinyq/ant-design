@@ -236,6 +236,6 @@ describe('Descriptions', () => {
     );
     expect(wrapper.find('.ant-descriptions-extra').exists()).toBe(true);
     wrapper.setProps({ extra: undefined });
-    expect(wrapper.find('.ant-descriptions-extra').exists()).toBe(true);
+    expect(wrapper.find('.ant-descriptions-extra').exists()).toBe(false);
   });
 });
